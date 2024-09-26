@@ -123,21 +123,25 @@ a{
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+.Logo-marca{
+    position: relative;
+    right: 5px;
+}
 .marca{
     position: absolute;
     display: flex;
-    width: 400px;
+    width: 60%;
     top: 10px;
 }
 .Text-Toner{
-    font-size: 72px;
     background: -webkit-linear-gradient(#c0bebe, #161515);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 30px;
+    top: 8px;
+    right: 5px;
     text-shadow: 5px 5px 5px rgb(161, 153, 153);
     position: relative;
-    margin: 10px 0 0 -5px;
 }
 .product-link{
     text-decoration: none;
