@@ -393,8 +393,11 @@ footer{
         height: 25px;
         width: 25px;
     }
+    .Text-Toner{
+        font-size: 15px;
+    }
     .marca{
-        top: 5px;
+        top: -2px;
     }
 }
 
