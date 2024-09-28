@@ -126,24 +126,26 @@ a{
 .Logo-marca{
     position: relative;
     right: 5px;
+    top: -5px;
 }
 .marca{
     position: absolute;
     display: flex;
     width: 260px;
-    top: 10px;
+    margin: 15 px 0 10px 3px;
 }
 .Text-Toner{
     background: -webkit-linear-gradient(#c0bebe, #161515);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 20px;
     top: 8px;
     right: 5px;
     text-shadow: 5px 5px 5px rgb(161, 153, 153);
     position: relative;
     width: 800px;
     display: flex;
+    top: 2px;
 }
 .product-link{
     text-decoration: none;
@@ -378,7 +380,14 @@ footer{
 @media only screen and (max-width: 767px){
     Body{
         width: 767px;
-        height: 1305px
+        height: 1305px;
+    }
+    .marca{
+        top: 15px;
+    }
+    .Logo-marca{
+        top: -8px;
+        
     }
 }
 
